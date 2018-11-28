@@ -317,7 +317,6 @@ describe('features/modeling/behavior - data object', function() {
         // then
         expect(dataObjectReferenceShape.businessObject.dataState.name).to.equal('bar');
         expect(dataObjectReferenceShape.businessObject.dataObjectRef.name).to.equal('foo');
-        expect(dataObjectReferenceShape.businessObject.dataObjectRef.dataState.name).to.equal('bar');
       }));
 
 
@@ -331,7 +330,6 @@ describe('features/modeling/behavior - data object', function() {
         // then
         expect(dataObjectReferenceShape.businessObject.dataState).not.to.exist;
         expect(dataObjectReferenceShape.businessObject.dataObjectRef.name).not.to.exist;
-        expect(dataObjectReferenceShape.businessObject.dataObjectRef.dataState).not.to.exist;
       }));
 
 
@@ -347,7 +345,6 @@ describe('features/modeling/behavior - data object', function() {
         // then
         expect(dataObjectReferenceShape.businessObject.dataState.name).to.equal('bar');
         expect(dataObjectReferenceShape.businessObject.dataObjectRef.name).to.equal('foo');
-        expect(dataObjectReferenceShape.businessObject.dataObjectRef.dataState.name).to.equal('bar');
       }));
 
     });
@@ -365,7 +362,6 @@ describe('features/modeling/behavior - data object', function() {
         // then
         expect(dataObjectReferenceShape.businessObject.dataState.name).to.equal('bar');
         expect(dataObjectReferenceShape.businessObject.dataObjectRef.name).to.equal('foo');
-        expect(dataObjectReferenceShape.businessObject.dataObjectRef.dataState.name).to.equal('bar');
       }));
 
 
@@ -381,7 +377,6 @@ describe('features/modeling/behavior - data object', function() {
         // then
         expect(dataObjectReferenceShape.businessObject.dataState).not.to.exist;
         expect(dataObjectReferenceShape.businessObject.dataObjectRef.name).not.to.exist;
-        expect(dataObjectReferenceShape.businessObject.dataObjectRef.dataState).not.to.exist;
       }));
 
 
@@ -399,7 +394,6 @@ describe('features/modeling/behavior - data object', function() {
         // then
         expect(dataObjectReferenceShape.businessObject.dataState.name).to.equal('bar');
         expect(dataObjectReferenceShape.businessObject.dataObjectRef.name).to.equal('foo');
-        expect(dataObjectReferenceShape.businessObject.dataObjectRef.dataState.name).to.equal('bar');
       }));
 
     });
@@ -415,7 +409,6 @@ describe('features/modeling/behavior - data object', function() {
         // then
         expect(dataObjectReferenceShape.businessObject.dataState.name).to.equal('');
         expect(dataObjectReferenceShape.businessObject.dataObjectRef.name).to.equal('foo bar');
-        expect(dataObjectReferenceShape.businessObject.dataObjectRef.dataState.name).to.equal('');
       }));
 
     });
